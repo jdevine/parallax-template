@@ -1,0 +1,237 @@
+// I gather this file is a starting point for the project.
+//@import "compass";
+
+// Twitter Bootstrap
+//@import "bootstrap";
+
+// Include responsive Bootstrap styles
+//@import "bootstrap-responsive";
+
+@import "font-awesome";
+
+// http://mplus-fonts.sourceforge.jp/webfonts/
+$font-name: mplus-2p-medium;
+
+@font-face {
+  font-family: $font-name;
+  src: url('http://mplus-fonts.sourceforge.jp/webfonts/#{$font-name}.ttf')
+       format("truetype");
+}
+
+body {
+  color: #CCFF00;
+  // Webフォント
+  //font-family: $font-name;
+  // ゴシック
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+  // 明朝
+  //font-family:"ヒラギノ明朝 Pro W6", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", serif;
+  letter-spacing: 0;
+}
+
+ul#nav {
+  left: 2%;
+  top:  5%;
+}
+
+section {
+  background: #000;
+}
+
+#chevron {
+  position: relative;
+  top: 20%;
+  left: 47%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 6px;
+  height: 3px;
+  width: 25px;
+  $degree: 40;
+  $color: #1BA466;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: #{$color};
+    -webkit-transform: skew(0deg, #{$degree}deg);
+    -moz-transform: skew(0deg, #{$degree}deg);
+    -ms-transform: skew(0deg, #{$degree}deg);
+    -o-transform: skew(0deg, #{$degree}deg);
+    transform: skew(0deg, #{$degree}deg);
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #{$color};
+    -webkit-transform: skew(0deg, -#{$degree}deg);
+    -moz-transform: skew(0deg, -#{$degree}deg);
+    -ms-transform: skew(0deg, -#{$degree}deg);
+    -o-transform: skew(0deg, -#{$degree}deg);
+    transform: skew(0deg, -#{$degree}deg);
+  }
+}
+
+@mixin contact {
+  .contact {
+    background: #1BA466;
+    opacity: 1.0;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 16%;
+    z-index: 999;
+
+    .inner {
+      .message {
+        font-size: 280%;
+        color: #E08DBC;
+        position: relative;
+        top: 10%;
+        left: 25%;
+      }
+      .phone-number {
+        font-size: 230%;
+        color: #FFFBD5;
+        position: relative;
+        top: 17%;
+        left: 18%;
+      }
+    }
+  }
+}
+
+@mixin boundary($bg: #F0BA32, $fg-h: #4B75B9, $fg-p: #1a1a1a) {
+  .story {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 100%;
+    height: 30%;
+
+    .inner {
+      position: relative;
+      top: 0%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+
+      h2 {
+        font-size: 300%;
+        color: $fg-h;
+      }
+
+      p {
+        font-size: 130%;
+        color: $fg-p;
+      }
+    }
+
+    .band {
+      background: $bg;
+      opacity: .95;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+#story-first {
+  .message {
+    position: absolute;
+    top: 14%;
+    left: 17%;
+
+    h1 {
+      font-size: 500%;
+      color: #FFFBD5;
+    }
+  }
+
+  @include contact;
+  @include boundary;
+}
+
+#story-second {
+  .slide-message {
+    font-size: 700%;
+    color: #330066;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+  }
+
+  .slide-message.start {
+    left: 60%;
+  }
+
+  .slide-message.end {
+    left: -10%;
+  }
+
+  @include boundary(#5D639E, #F3C0AB, #EEF5D3);
+}
+
+#story-third {
+  @include boundary(#B3E7AB, #DA5019, #000);
+}
+
+#story-last {
+  .story {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 70%;
+
+    .inner {
+      position: relative;
+      top: 0%;
+      left: 10%;
+      width: 80%;
+      height: 80%;
+
+      h2 {
+        position: relative;
+        left: 30%;
+        font-size: 300%;
+        color: #4B75B9;
+      }
+
+      p {
+        font-size: 130%;
+        color: #1a1a1a;
+      }
+    }
+
+    .box {
+      background: #FFFBD5;
+      opacity: 1.0;
+      border-radius: 20px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 65%;
+      height: 100%;
+    }
+  }
+
+  @include contact;
+  .contact {
+    top: 60%;
+  }
+}
+

@@ -1,0 +1,57 @@
+#mock-scroller
+%ul#nav
+
+#content
+  %section#story-first
+    = image_tag 'http://lorempixel.com/960/540/people/', class: "bg animate", anim: { detached: "true" }
+    .message
+      %h1= "Impressive Message"
+    .contact
+      .inner
+        .message
+          Call Now!
+        .phone-number
+          %i.icon-phone-sign
+            00-0000-0000
+      #chevron
+    .story
+      .band
+      .inner
+        %h2= "First Pane"
+        %p= lorem.paragraph
+
+  //%section#story-second{anim: { pause: "1000" }}
+  %section#story-second
+    = image_tag 'http://lorempixel.com/960/540/abstract/', class: "bg animate", anim: { detached: "true" }
+    .slide-message.animate{ anim: { detached: "true" } }
+      Hello!
+    .story
+      .band
+      .inner
+        %h2= "Second Pane"
+        %p= lorem.paragraph
+
+  //%section#story-third{anim: { pause: "1000" }}
+  %section#story-third
+    = image_tag 'http://lorempixel.com/960/540/nightlife/', class: "bg animate", anim: { detached: "true" }
+    .story
+      .band
+      .inner
+        %h2= "Third Pane"
+        %p= lorem.paragraph
+
+  %section#story-last{anim: { pause: "1000" }}
+    = image_tag 'http://lorempixel.com/960/540/sports/', class: "bg"
+    .story
+      .box
+      .inner
+        %h2= "Last Pane"
+        %p= lorem.paragraph
+    .contact
+      .inner
+        .message
+          Call Now!
+        .phone-number
+          %i.icon-phone-sign
+            00-0000-0000
+
