@@ -22,3 +22,5 @@ Deploy to Github Pages
 $ rake build
 $ rake publish
 ```
+
+created at http://hassaku.github.io/parallax-template/
