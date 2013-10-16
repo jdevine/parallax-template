@@ -1,4 +1,4 @@
-middleman template using bootstrap, haml, bootstrap, scss and coffee script.
+middleman template using parallax effect.
 =============================
 
 Middleman template using parallax effect.
