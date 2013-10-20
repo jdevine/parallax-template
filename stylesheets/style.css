@@ -1952,20 +1952,6 @@ section {
   height: 16%;
   z-index: 999;
 }
-#story-first .contact .inner .message {
-  font-size: 280%;
-  color: #E08DBC;
-  position: relative;
-  top: 10%;
-  left: 25%;
-}
-#story-first .contact .inner .phone-number {
-  font-size: 230%;
-  color: #FFFBD5;
-  position: relative;
-  top: 17%;
-  left: 18%;
-}
 #story-first .story {
   position: absolute;
   top: 70%;
@@ -2119,20 +2105,6 @@ section {
   width: 30%;
   height: 16%;
   z-index: 999;
-}
-#story-last .contact .inner .message {
-  font-size: 280%;
-  color: #E08DBC;
-  position: relative;
-  top: 10%;
-  left: 25%;
-}
-#story-last .contact .inner .phone-number {
-  font-size: 230%;
-  color: #FFFBD5;
-  position: relative;
-  top: 17%;
-  left: 18%;
 }
 #story-last .contact {
   top: 60%;
