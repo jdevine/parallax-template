@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="contact.svg">
+   sodipodi:docname="contact.svg"
+   inkscape:export-filename="/Users/hasuo/Desktop/contact.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <linearGradient
@@ -34,16 +37,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="189.15922"
-     inkscape:cy="244.59716"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="335.11203"
+     inkscape:cy="208.09754"
      inkscape:document-units="px"
      inkscape:current-layer="text5223"
      showgrid="false"
      inkscape:window-width="1296"
      inkscape:window-height="754"
      inkscape:window-x="4"
-     inkscape:window-y="0"
+     inkscape:window-y="4"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -62,14 +65,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-652.3622)">
-    <rect
-       style="opacity:0.80666665;fill:#00aa44;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="rect2985"
-       width="290.8157"
-       height="90.774857"
-       x="52.951992"
-       y="765.22754"
-       ry="11.767109" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot5213"
@@ -85,9 +80,17 @@
          id="flowPara5221" /></flowRoot>    <g
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="text5223">
+      <rect
+         style="opacity:1;fill:#00aa44;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect2985"
+         width="396.88171"
+         height="116.2307"
+         x="28.910362"
+         y="736.94324"
+         ry="15.066939" />
       <g
          id="g5929"
-         transform="translate(-0.02101205,-2)">
+         transform="matrix(1.364719,0,0,1.2804283,-11.684419,-243.43664)">
         <path
            inkscape:connector-curvature="0"
            id="path5776"
@@ -411,17 +414,38 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffd5f6;fill-opacity:1;stroke:none;font-family:Sans"
-         x="84.734848"
-         y="-817.80432"
+         style="font-size:52.87607956px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffd5f6;fill-opacity:1;stroke:none;font-family:Sans"
+         x="70.017143"
+         y="-830.31451"
          id="text5923"
          sodipodi:linespacing="125%"
-         transform="scale(1,-1)"><tspan
+         transform="scale(1.0323905,-0.96862576)"><tspan
            sodipodi:role="line"
            id="tspan5925"
-           x="84.734848"
-           y="-817.80432"
+           x="70.017143"
+           y="-830.31451"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffd5f6;font-family:Strait;-inkscape-font-specification:Strait Bold">00-0000-0000</tspan></text>
+      <g
+         id="g7143"
+         transform="translate(456.36568,457.48236)">
+        <path
+           id="path7031"
+           d="m -337.42529,319.5873 c -1.53318,0.26521 -3.18503,1.16306 -4.68889,2.37725 -3.36655,-3.6825 -8.18948,-8.78366 -12.18858,-12.98697 1.37259,-2.10725 1.4103,-3.99242 1.4103,-3.99242 0,-4.76727 -4.02005,-9.30767 -7.64074,-9.6943 -3.62348,-0.38502 -8.70055,4.26722 -8.40453,9.59525 0.0321,0.77803 0.1913,1.58801 0.44962,2.38842 0.39377,1.65033 1.27486,3.50355 2.87366,5.57246 9.16273,11.85905 22.37902,21.90642 22.37902,21.90642 0,0 0.0419,-0.0224 0.10891,-0.0575 1.49129,1.38193 3.41124,2.15997 5.70123,2.15997 5.07846,-0.76685 7.60722,-3.67769 8.27886,-7.52474 0.67303,-3.84864 -4.87181,-10.33333 -8.27886,-9.74382 z"
+           inkscape:connector-curvature="0"
+           style="fill:#333333" />
+        <text
+           id="text7113"
+           letter-spacing="-3"
+           font-size="20"
+           transform="translate(109.7107,43.9561)"
+           style="font-size:20px;letter-spacing:-3;font-family:iroha-25icho"></text>
+        <text
+           id="text7121"
+           letter-spacing="-2"
+           font-size="20"
+           transform="translate(157.7292,43.9561)"
+           style="font-size:20px;letter-spacing:-2;font-family:iroha-25icho"></text>
+      </g>
     </g>
   </g>
 </svg>
