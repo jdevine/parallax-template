@@ -1895,11 +1895,12 @@ section {
 
 #chevron {
   position: relative;
-  top: 20%;
+  top: 0%;
   left: 47%;
   text-align: center;
   padding: 5px;
   margin-bottom: 6px;
+  margin-top: 20px;
   height: 3px;
   width: 25px;
 }
@@ -1942,14 +1943,9 @@ section {
   color: #FFFBD5;
 }
 #story-first .contact {
-  background: #1BA466;
-  opacity: 1.0;
-  border-radius: 10px;
   position: absolute;
   top: 35%;
   left: 35%;
-  width: 30%;
-  height: 16%;
   z-index: 999;
 }
 #story-first .story {
@@ -2096,14 +2092,9 @@ section {
   height: 100%;
 }
 #story-last .contact {
-  background: #1BA466;
-  opacity: 1.0;
-  border-radius: 10px;
   position: absolute;
   top: 35%;
   left: 35%;
-  width: 30%;
-  height: 16%;
   z-index: 999;
 }
 #story-last .contact {
