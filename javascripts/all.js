@@ -12008,8 +12008,9 @@ var ABalytics = {
 
 }).call(this);
 (function() {
-  window.onload = function() {
-    return ABalytics.applyHtml();
-  };
+  $(document).ready(function() {
+    ABalytics.applyHtml();
+    return console.log("debug");
+  });
 
 }).call(this);
