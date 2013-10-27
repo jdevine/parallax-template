@@ -9628,12 +9628,12 @@ var ABalytics = {
                 start_slot,
                 experiment,                 // The name of the custom variable = name of the experiment
                 variant.name,               // The value of the custom variable = variant shown
-                1                           // Sets the scope to session-level
-                //2                           // Sets the scope to session-level
+                2                           // Sets the scope to session-level
             ]);
             __gaq.push(['_setCustomVar', 3, 'Test3', 'test', 1]);
             __gaq.push(['_setCustomVar', 4, 'Test4', 'test', 2]);
-            console.log('set custom var' + start_slot + ' / ' + experiment + ' / ' + variant.name);
+            __gaq.push(['_setCustomVar', 5, 'Test5', 'test', 3]);
+            console.log('set custom var / ' + start_slot + ' / ' + experiment + ' / ' + variant.name);
             start_slot++;
 
             for (var change in variant) {
