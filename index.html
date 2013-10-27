@@ -28,6 +28,16 @@
           ]}, _gaq);
       
       _gaq.push(['_trackPageview']);
+      _gaq.push(['_setCustomVar',
+      　　1, 　　　　　　　　　　// このカスタム変数はスロット１に格納する
+      　　'Items Removed', 　　　// ユーザーの行動の種類の名前
+      　　'Yes',　　　　　　　　 // カスタム変数の値
+      　　2 　　　　　　　　　　 // スコープをセッションレベルに設定
+      ]);
+      _gaq.push(['_trackEvent',
+      　　'Shopping',　　　　  // カテゴリ名
+      　　'Item Removal' 　　 // アクション名
+      ]);
       
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -58,7 +68,7 @@
           <div class='band'></div>
           <div class='inner'>
             <h2>First Pane</h2>
-            <p>Optio facere et ea quasi qui id. eaque inventore reprehenderit alias iste eaque harum voluptas rerum tenetur neque saepe incidunt dolorem commodi. non nostrum dolorem nulla. enim aut voluptas non id ullam</p>
+            <p>Et consequatur explicabo aut neque sit non quia saepe nesciunt qui sed magni quia. officia iste nesciunt perspiciatis atque quas. ex consequatur minus sint sunt. ullam qui laborum rerum molestiae tenetur ut ullam nesciunt tempore quia ipsum soluta modi necessitatibus. odio mollitia odit est libero debitis sit suscipit et. perferendis qui atque illum vitae rerum rerum qui libero et. quae expedita rem eius libero sit nostrum provident sint amet cumque consectetur non</p>
           </div>
         </div>
       </section>
@@ -72,7 +82,7 @@
           <div class='band'></div>
           <div class='inner'>
             <h2>Second Pane</h2>
-            <p>Temporibus facilis natus porro eos fugiat culpa aliquid. voluptates quo aperiam laborum voluptas maxime exercitationem cum qui voluptates aut. et molestiae assumenda rerum iure ullam</p>
+            <p>Eligendi perferendis esse numquam omnis aspernatur illo. quidem laudantium minus quia eius ipsa facilis velit. modi in ducimus quibusdam maxime a non quidem dolore voluptas ut sunt. et earum enim odit excepturi in a odio quos</p>
           </div>
         </div>
       </section>
@@ -83,7 +93,7 @@
           <div class='band'></div>
           <div class='inner'>
             <h2>Third Pane</h2>
-            <p>Repudiandae cumque dolor aliquid voluptatem adipisci delectus voluptatem id quaerat et id voluptates facere. beatae eius vero ratione exercitationem repellat quae ut consectetur labore. quos consectetur quis rerum dolorem. quia aut laudantium fugiat ut architecto error rerum quo. veniam ea cumque molestiae quidem animi debitis similique placeat hic. consequatur odio voluptas corrupti enim soluta optio quos beatae quidem ullam nihil quaerat excepturi velit. in consectetur in eligendi fuga rerum eveniet non non quaerat consequuntur nulla ad mollitia</p>
+            <p>Animi qui sequi ut non cumque eos ex rerum voluptatem. consequatur voluptas tempore perspiciatis fugiat unde sit doloribus eligendi ab voluptas quasi id praesentium. velit corrupti cupiditate quibusdam vel voluptate. velit doloremque quis et quia est. qui et asperiores veritatis voluptatem</p>
           </div>
         </div>
       </section>
@@ -93,7 +103,7 @@
           <div class='box'></div>
           <div class='inner'>
             <h2>Last Pane</h2>
-            <p>Consequuntur et qui minima non a quia nisi voluptates tempora ratione et ipsam neque quod. non debitis omnis mollitia aut eveniet minima ratione beatae magnam est earum. asperiores suscipit dolores sed dolores aperiam qui quae ab et sapiente omnis numquam excepturi. soluta a consequatur velit. aut atque enim dolor enim reiciendis earum sunt et placeat. cum omnis harum vel voluptas consectetur rem sed natus rerum et iusto rem</p>
+            <p>Fuga adipisci itaque natus enim corrupti quo minima explicabo beatae quam est ab fugit praesentium. repellendus a rerum reprehenderit molestiae rerum non ut quisquam ab. quas in cumque voluptatem sunt reiciendis rerum. accusamus est illo enim in quia alias aliquid quisquam rerum magni. unde eligendi autem reiciendis rem voluptate velit aut quaerat nisi perferendis culpa at. sit id similique repellat magnam eum doloremque sit optio cupiditate molestias aut. ut qui voluptatum quis</p>
           </div>
         </div>
         <div class='contact'>
