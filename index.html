@@ -11,6 +11,31 @@
       <![endif]-->
     <link href='stylesheets/all.css' rel='stylesheet' type='text/css'>
     <script src='javascripts/all.js' type='text/javascript'></script>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31136981-3']);
+      
+      ABalytics.init({
+          click_button_intro: [
+              {
+                  name: 'ab_compel',
+                  "ab_test1": "This text will compel you to click the button below!"
+              },
+              {
+                  name: 'ab_convince',
+                  "ab_test1": "This text will convince you to click the button below!"
+              }
+          ]}, _gaq);
+      
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        console.log("ga load");
+      })();
+    </script>
   </head>
   <body>
     <div id='mock-scroller'></div>
@@ -33,7 +58,7 @@
           <div class='band'></div>
           <div class='inner'>
             <h2>First Pane</h2>
-            <p>Assumenda quia quis quia praesentium iste est corporis beatae neque reiciendis voluptate cupiditate. libero ut aut nisi quas excepturi aspernatur beatae quia non architecto qui veritatis. recusandae et quas recusandae et et quia doloremque</p>
+            <p>Vitae nihil esse numquam magnam iste suscipit optio commodi in molestias quos voluptates vel. et qui et eius rerum dignissimos voluptas ut quisquam recusandae nesciunt dolorem neque. ea fugiat veniam minima qui doloremque qui inventore accusantium quia sed sed. quisquam sed et magni nesciunt libero aut maiores qui culpa</p>
           </div>
         </div>
       </section>
@@ -47,7 +72,7 @@
           <div class='band'></div>
           <div class='inner'>
             <h2>Second Pane</h2>
-            <p>Et sed excepturi ab aut porro consequatur ea nostrum non natus est aut illum rem. esse et magnam et modi nobis laborum delectus minima necessitatibus fugiat sit. maxime repudiandae deleniti voluptas quasi aut ducimus quas ea ullam quidem repudiandae voluptatem exercitationem. dolorem quos quia quis aliquam quaerat fugiat sed error. quaerat error optio a alias. odit ipsam in voluptas animi a autem. quibusdam et ipsam suscipit voluptas expedita eaque</p>
+            <p>Et voluptas esse laboriosam qui ab ut temporibus accusamus cum iure unde. optio ut velit inventore doloremque temporibus voluptatem reiciendis porro doloremque quod. similique qui velit consectetur at eius molestiae accusamus est id in adipisci pariatur magnam</p>
           </div>
         </div>
       </section>
@@ -58,7 +83,7 @@
           <div class='band'></div>
           <div class='inner'>
             <h2>Third Pane</h2>
-            <p>Quam quo qui qui. expedita laboriosam qui velit veniam exercitationem voluptas distinctio dolor veniam earum. voluptatem modi error perferendis. nostrum laudantium dolores eos magni. aut animi porro omnis vero sit alias asperiores repudiandae cum repellat voluptatem sint dicta aut. temporibus at recusandae sequi. voluptatem sint aut dolorem incidunt cumque dolores vitae eius consequatur fuga impedit minima repellendus</p>
+            <p>Fugit amet corrupti similique laboriosam doloremque. placeat voluptas doloremque enim eaque accusantium error aut. inventore quidem animi eum. dolores non id aut rerum repellendus asperiores officiis iure nulla dolor nesciunt alias praesentium et. nemo omnis totam illo nisi tenetur quis quidem officia. quae voluptate veniam omnis ea blanditiis dolores nisi est omnis commodi. quisquam sed alias aut laudantium eligendi enim cumque incidunt et tenetur in veniam</p>
           </div>
         </div>
       </section>
@@ -68,7 +93,7 @@
           <div class='box'></div>
           <div class='inner'>
             <h2>Last Pane</h2>
-            <p>Laborum fugiat quis consequatur. quisquam velit facere enim repellat voluptate aspernatur earum ad blanditiis. sequi natus ea pariatur</p>
+            <p>Officiis modi quasi dolores et aut commodi et cum quia sequi rem. tempora quos quisquam velit necessitatibus laudantium harum itaque et aspernatur eum vero rerum omnis. qui ea vel quidem harum aut et ipsum iste sunt consectetur. quia fuga eius dolores autem ducimus id eaque corrupti nam veniam sed vero</p>
           </div>
         </div>
         <div class='contact'>
