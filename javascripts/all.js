@@ -9628,8 +9628,10 @@ var ABalytics = {
                 start_slot,
                 experiment,                 // The name of the custom variable = name of the experiment
                 variant.name,               // The value of the custom variable = variant shown
-                2                           // Sets the scope to session-level
+                1                           // Sets the scope to session-level
+                //2                           // Sets the scope to session-level
             ]);
+            console.log('set custom var');
             start_slot++;
 
             for (var change in variant) {
